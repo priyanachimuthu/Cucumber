@@ -101,7 +101,7 @@ public class ProductSteps {
     public void userpf_should_be_able_to_visualize_the_product_in_mycart() throws Throwable {
         WebElement ShopCart = driver.findElement(By.xpath("//*[@class='shopping_cart_link']"));
     	ShopCart.click();
-    	System.out.println("Can Visualize in the cart");
+    	System.out.println("Can Visualize the products in the cart");
     	Thread.sleep(5000);
     }
 

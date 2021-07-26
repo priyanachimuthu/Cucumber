@@ -18,8 +18,8 @@ Feature: Product Feature
       | Product                 |
       | Sauce Labs Bolt T-Shirt |
 
-  @DataTable
-  Scenario Outline: User can able to add Multiple products to the cart
+  @ProductFeature @DataTable 
+  Scenario: User can able to add Multiple products to the cart
     Given User_pf should be landed on the Products Page
     And User_pf selects multiple products and User Click Add to Cart button
       | Sauce Labs Bolt T-Shirt  |
